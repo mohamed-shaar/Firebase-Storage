@@ -91,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void uploadImage() {
         if (filepath != null){
+            Log.d("file path", String.valueOf(filepath));
             final ProgressDialog progressDialog = new ProgressDialog(this);
             progressDialog.setTitle(R.string.uploading);
             progressDialog.show();
